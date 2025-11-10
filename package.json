@@ -11,7 +11,11 @@
   "dependencies": {
     "react": "19.2.0",
     "react-dom": "19.2.0",
-    "next": "16.0.1"
+    "next": "16.0.1",
+    "@solana/web3.js": "^1.95.8",
+    "@faremeter/payment-solana": "latest",
+    "@faremeter/fetch": "latest",
+    "@faremeter/info": "latest"
   },
   "devDependencies": {
     "typescript": "^5",
