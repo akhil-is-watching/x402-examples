@@ -54,7 +54,7 @@ export default function SolanaPayment() {
         handlers: [handler],
       });
 
-      const response = await fetchWithPayer("https://helius.api.corbits.dev", {
+      const response = await fetchWithPayer("/api/helius", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
