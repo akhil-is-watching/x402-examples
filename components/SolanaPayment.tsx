@@ -29,7 +29,7 @@ export default function SolanaPayment() {
 
       setWalletAddress(phantom.publicKey.toString());
 
-      const network = "mainnet-beta";
+      const network = "devnet";
       const connection = new Connection("https://api.devnet.solana.com");
 
       const usdcInfo = lookupKnownSPLToken(network, "USDC");
